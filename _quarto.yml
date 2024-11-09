@@ -5,6 +5,8 @@ project:
 website:
   title: "Finite Moment"
   site-url: https://finitemoment.com
+  repo-url: https://github.com/bdkoepke/fmblog
+  reader-mode: true
   favicon: logo.png
   twitter-card:
     creator: "@bdkoepke"

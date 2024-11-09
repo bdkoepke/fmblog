@@ -1,6 +1,5 @@
 ---
 title: "Hello World in R from Quarto"
-author: "Brandon Dale Koepke"
 date: "2024-11-08"
 categories: [news, code, analysis]
 image: "image.jpg"

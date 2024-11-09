@@ -6,3 +6,38 @@ freeze: true
 
 # Enable banner style title blocks
 title-block-banner: true
+
+authors:
+  - name: "Brandon Dale Koepke"
+    affiliation: Finite Moment
+
+citation:
+  type: post-weblog
+  container-title: FiniteMoment
+
+execute:
+  echo: true
+  message: true
+  warning: true
+
+highlight-style: github
+
+code-tools:
+  source: repo
+  toggle: true
+  caption: none
+
+downloads: [pdf, epub]
+editor: source
+
+format:
+  html:
+    toc: true
+    toc-location: left
+    sidebar: sidebar-posts
+    code-overflow: wrap
+    code-fold: true
+    code-copy: hover
+    code-folding: hide
+    code-summary: "\\<code\\>"
+    highlight-style: github
