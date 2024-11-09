@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Finite Moment"
+  title: "Brandon Dale Koepke"
   site-url: https://finitemoment.com
   repo-url: https://github.com/bdkoepke/fmblog
   reader-mode: true
@@ -15,6 +15,7 @@ website:
     giscus:
       repo: bdkoepke/fmblog
   navbar:
+    logo: finite_moment.png
     right:
       - about.qmd
       - icon: envelope-at
@@ -32,3 +33,4 @@ format:
     theme: flatly
     css: styles.css
     toc: true
+    mainfont: "Computer Modern Serif"

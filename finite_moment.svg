@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <!-- Updated Design with "Finite Moment" Text -->
+  <!--<rect width="300" height="300"/>-->
+
+  <!-- #D4AF37 -->
+  <!-- Ornate Central Design -->
+  <circle cx="150" cy="125" r="95" fill="none" stroke="silver" stroke-width="5" />
+  <circle cx="150" cy="125" r="87" fill="none" stroke="silver" stroke-width="3" />
+  <circle cx="150" cy="125" r="82" fill="none" stroke="silver" stroke-width="2" />
+  <circle cx="150" cy="125" r="79" fill="none" stroke="silver" stroke-width="1" />
+
+  <!-- Monogram -->
+  <text x="110" y="138" font-size="89" text-anchor="middle" fill="silver" font-family='Updock'>F</text>
+  <text x="170" y="168" font-size="89" text-anchor="middle" fill="silver" font-family='Updock'>M</text>
+
+  <!-- Updated Company Name -->
+  <text x="150" y="270" font-size="55" text-anchor="middle" fill="silver" font-family='Updock'>Finite Moment</text>
+  <line x1="20" y1="280" x2="280" y2="280" stroke="silver" stroke-width="3" />
+</svg>
