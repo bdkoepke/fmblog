@@ -13,7 +13,6 @@
 <lastBuildDate>Fri, 08 Nov 2024 08:00:00 GMT</lastBuildDate>
 <item>
   <title>Hello World in R from Quarto</title>
-  <dc:creator>Brandon Dale Koepke</dc:creator>
   <link>https://finitemoment.com/posts/post-with-code/</link>
   <description><![CDATA[ 
 
@@ -22,14 +21,17 @@
 
 
 <p>This is a post with executable R code.</p>
+<p><img src="https://finitemoment.com/posts/post-with-code/image.jpg" class="img-fluid"></p>
 <!---
-```xwia
+```nyhd
 let name = "World"
 let lang = "FSharp"
 $"Hello {name} from {lang}!"
 ```
 --->
 <div class="cell">
+<details class="code-fold">
+<summary>&lt;code&gt;</summary>
 <div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1">name <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">=</span> <span class="st" style="color: #20794D;
@@ -47,6 +49,7 @@ background-color: null;
 font-style: inherit;">"Hello"</span>, name, <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"from"</span>, lang)</span></code></pre></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>Hello World from R!</code></pre>
 </div>
@@ -54,7 +57,17 @@ font-style: inherit;">"from"</span>, lang)</span></code></pre></div>
 
 
 
- ]]></description>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{dale_koepke2024,
+  author = {Dale Koepke, Brandon},
+  title = {Hello {World} in {R} from {Quarto}},
+  date = {2024-11-08},
+  url = {https://finitemoment.com/posts/post-with-code/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-dale_koepke2024" class="csl-entry quarto-appendix-citeas">
+Dale Koepke, Brandon. 2024. <span>“Hello World in R from Quarto.”</span>
+<em>FiniteMoment</em> (blog). November 8, 2024. <a href="https://finitemoment.com/posts/post-with-code/">https://finitemoment.com/posts/post-with-code/</a>.
+</div></div></section></div> ]]></description>
   <category>news</category>
   <category>code</category>
   <category>analysis</category>
