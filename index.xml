@@ -5,7 +5,7 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Finite Moment</title>
+<title>Brandon Dale Koepke</title>
 <link>https://finitemoment.com/</link>
 <atom:link href="https://finitemoment.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
@@ -21,9 +21,8 @@
 
 
 <p>This is a post with executable R code.</p>
-<p><img src="https://finitemoment.com/posts/post-with-code/image.jpg" class="img-fluid"></p>
 <!---
-```nyhd
+```coip
 let name = "World"
 let lang = "FSharp"
 $"Hello {name} from {lang}!"

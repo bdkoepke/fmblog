@@ -32,6 +32,6 @@
     "href": "posts/post-with-code/index.html",
     "title": "Hello World in R from Quarto",
     "section": "",
-    "text": "This is a post with executable R code.\n\n\n\n\n&lt;code&gt;\nname = \"World\"\nlang = \"R!\"\ncat(\"Hello\", name, \"from\", lang)\n\n\nHello World from R!\n\n\n\n\n\nCitationBibTeX citation:@misc{dale_koepke2024,\n  author = {Dale Koepke, Brandon},\n  title = {Hello {World} in {R} from {Quarto}},\n  date = {2024-11-08},\n  url = {https://finitemoment.com/posts/post-with-code/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nDale Koepke, Brandon. 2024. “Hello World in R from Quarto.”\nFiniteMoment (blog). November 8, 2024. https://finitemoment.com/posts/post-with-code/."
+    "text": "This is a post with executable R code.\n\n\n\n&lt;code&gt;\nname = \"World\"\nlang = \"R!\"\ncat(\"Hello\", name, \"from\", lang)\n\n\nHello World from R!\n\n\n\n\n\nCitationBibTeX citation:@misc{dale_koepke2024,\n  author = {Dale Koepke, Brandon},\n  title = {Hello {World} in {R} from {Quarto}},\n  date = {2024-11-08},\n  url = {https://finitemoment.com/posts/post-with-code/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nDale Koepke, Brandon. 2024. “Hello World in R from Quarto.”\nFiniteMoment (blog). November 8, 2024. https://finitemoment.com/posts/post-with-code/."
   }
 ]
