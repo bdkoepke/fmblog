@@ -21,38 +21,124 @@
 
 
 <p>This is a post with executable R code.</p>
-<!---
-```dpmg
-let name = "World"
-let lang = "FSharp"
-$"Hello {name} from {lang}!"
-```
---->
-<div class="cell">
-<details class="code-fold">
-<summary>&lt;code&gt;</summary>
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1">name <span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"World"</span></span>
-<span id="cb1-2">lang <span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"R!"</span></span>
-<span id="cb1-3"><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">cat</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Hello"</span>, name, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"from"</span>, lang)</span></code></pre></div>
-</details>
-<div class="cell-output cell-output-stdout">
-<pre><code>Hello World from R!</code></pre>
+<div id="7a6ec4ac" class="cell" data-execution_count="1">
+<p><code>{.f# .cell-code} let name = "World" let lang = "FSharp" $"Hello {name} from {lang}!"</code></p>
+<div class="cell-output cell-output-display">
+
+<div>
+    <div id="dotnet-interactive-this-cell-319185.Microsoft.DotNet.Interactive.Http.HttpPort" style="display: none">
+        The below script needs to be able to find the current output cell; this is an easy method to get it.
+    </div>
+    <script type="text/javascript">
+async function probeAddresses(probingAddresses) {
+    function timeout(ms, promise) {
+        return new Promise(function (resolve, reject) {
+            setTimeout(function () {
+                reject(new Error('timeout'))
+            }, ms)
+            promise.then(resolve, reject)
+        })
+    }
+
+    if (Array.isArray(probingAddresses)) {
+        for (let i = 0; i < probingAddresses.length; i++) {
+
+            let rootUrl = probingAddresses[i];
+
+            if (!rootUrl.endsWith('/')) {
+                rootUrl = `${rootUrl}/`;
+            }
+
+            try {
+                let response = await timeout(1000, fetch(`${rootUrl}discovery`, {
+                    method: 'POST',
+                    cache: 'no-cache',
+                    mode: 'cors',
+                    timeout: 1000,
+                    headers: {
+                        'Content-Type': 'text/plain'
+                    },
+                    body: probingAddresses[i]
+                }));
+
+                if (response.status == 200) {
+                    return rootUrl;
+                }
+            }
+            catch (e) { }
+        }
+    }
+}
+
+function loadDotnetInteractiveApi() {
+    probeAddresses(["http://192.168.1.166:2048/", "http://127.0.0.1:2048/"])
+        .then((root) => {
+        // use probing to find host url and api resources
+        // load interactive helpers and language services
+        let dotnetInteractiveRequire = require.config({
+        context: '319185.Microsoft.DotNet.Interactive.Http.HttpPort',
+                paths:
+            {
+                'dotnet-interactive': `${root}resources`
+                }
+        }) || require;
+
+            window.dotnetInteractiveRequire = dotnetInteractiveRequire;
+
+            window.configureRequireFromExtension = function(extensionName, extensionCacheBuster) {
+                let paths = {};
+                paths[extensionName] = `${root}extensions/${extensionName}/resources/`;
+                
+                let internalRequire = require.config({
+                    context: extensionCacheBuster,
+                    paths: paths,
+                    urlArgs: `cacheBuster=${extensionCacheBuster}`
+                    }) || require;
+
+                return internalRequire
+            };
+        
+            dotnetInteractiveRequire([
+                    'dotnet-interactive/dotnet-interactive'
+                ],
+                function (dotnet) {
+                    dotnet.init(window);
+                },
+                function (error) {
+                    console.log(error);
+                }
+            );
+        })
+        .catch(error => {console.log(error);});
+    }
+
+// ensure `require` is available globally
+if ((typeof(require) !==  typeof(Function)) || (typeof(require.config) !== typeof(Function))) {
+    let require_script = document.createElement('script');
+    require_script.setAttribute('src', 'https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js');
+    require_script.setAttribute('type', 'text/javascript');
+    
+    
+    require_script.onload = function() {
+        loadDotnetInteractiveApi();
+    };
+
+    document.getElementsByTagName('head')[0].appendChild(require_script);
+}
+else {
+    loadDotnetInteractiveApi();
+}
+
+    </script>
 </div>
 </div>
+<div class="cell-output cell-output-display" data-execution_count="1">
+<pre><code>Hello World from FSharp!</code></pre>
+</div>
+</div>
+<pre class="{r}"><code>name = "World"
+lang = "R!"
+cat("Hello", name, "from", lang)</code></pre>
 
 
 
