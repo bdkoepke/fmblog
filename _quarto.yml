@@ -9,6 +9,9 @@ website:
   twitter-card:
     creator: "@bdkoepke"
   open-graph: true
+  comments:
+    giscus:
+      repo: bdkoepke/fmblog
   navbar:
     right:
       - about.qmd
