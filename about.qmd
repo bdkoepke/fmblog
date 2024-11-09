@@ -34,7 +34,11 @@ about:
 
 Finite Moment is a Kelowna based consulting firm focused on financial technology and quantitative research.
 
+:::
+
 ### Brandon Dale Koepke
+
+:::{#hero-heading}
 
 Brandon Koepke is a Financial Technology Architect, Quantitative Researcher, and Portfolio Manager at ReSolve Asset Management.
 
