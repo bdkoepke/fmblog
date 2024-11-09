@@ -23,7 +23,7 @@
 
 <p>This is a post with executable R code.</p>
 <!---
-```bwqz
+```xwia
 let name = "World"
 let lang = "FSharp"
 $"Hello {name} from {lang}!"
