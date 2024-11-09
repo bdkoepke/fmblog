@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  title: "Finite Moment"
+  site-url: https://finitemoment.com
+  favicon: logo.png
+  twitter-card:
+    creator: "@bdkoepke"
+  open-graph: true
+  navbar:
+    right:
+      - about.qmd
+      - icon: envelope-at
+        href: mailto:brandon@finitemoment.com
+      - icon: github
+        href: https://github.com/bdkoepke
+      - icon: twitter
+        href: https://twitter.com/bdkoepke
+      - icon: linkedin
+        href: https://linkedin.com/in/bdkoepke
+      - icon: rss
+        href: index.xml
+format:
+  html:
+    theme: lux
+    css: styles.css
+    toc: true
