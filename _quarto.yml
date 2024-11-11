@@ -6,7 +6,10 @@ project:
 
 website:
   title: "Brandon Dale Koepke"
-  google-analytics: "G-XLHQLE1P7K"
+  google-analytics:
+    tracking-id: "G-XLHQLE1P7K"
+    storage: cookies
+  cookie-consent: true
   bread-crumbs: true
   site-url: https://finitemoment.com
   repo-url: https://github.com/bdkoepke/fmblog
