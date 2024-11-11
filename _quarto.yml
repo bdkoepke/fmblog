@@ -6,6 +6,8 @@ project:
 
 website:
   title: "Brandon Dale Koepke"
+  google-analytics: "G-XLHQLE1P7K"
+  bread-crumbs: true
   site-url: https://finitemoment.com
   repo-url: https://github.com/bdkoepke/fmblog
   reader-mode: true

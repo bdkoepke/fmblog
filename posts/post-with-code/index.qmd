@@ -3,17 +3,16 @@ title: "Hello World in R from Quarto"
 date: "2024-11-08"
 categories: [news, code, analysis]
 image: "image.jpg"
+jupyter: .net-fsharp
 ---
 
 This is a post with executable R code.
 
-<!---
 ```{f#}
 let name = "World"
 let lang = "FSharp"
 $"Hello {name} from {lang}!"
 ```
---->
 
 ```{r}
 name = "World"
